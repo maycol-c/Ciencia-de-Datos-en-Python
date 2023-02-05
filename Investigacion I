@@ -1,0 +1,143 @@
+INVESTIGACIÓN 1
+
+A.Qué es git:
+Es un sistema de control de versiones de código fuente que permite a los desarrolladores gestionar y mantener
+un seguimiento de los cambios realizados en el código a lo largo del tiempo. 
+Git es un proyecto de código abierto con un mantenimiento activo que desarrolló originalmente Linus Torvalds, 
+el famoso creador del kernel del sistema operativo Linux, en 2005. 
+Un asombroso número de proyectos de software dependen de Git para el control de versiones, incluidos proyectos comerciales y de código abierto. 
+
+Rendimiento
+Las características básicas de rendimiento de Git son muy sólidas en comparación con muchas otras alternativas. 
+La confirmación de nuevos cambios, la ramificación, la fusión y la comparación de versiones anteriores se han optimizado en favor del rendimiento. 
+Los algoritmos implementados en Git aprovechan el profundo conocimiento sobre los atributos comunes de los auténticos árboles de archivos de código fuente, 
+cómo suelen modificarse con el paso del tiempo y cuáles son los patrones de acceso.
+
+Seguridad 
+Git se ha diseñado con la principal prioridad de conservar la integridad del código fuente gestionado. 
+El contenido de los archivos y las verdaderas relaciones entre estos y los directorios, las versiones, las etiquetas y las confirmaciones, 
+todos ellos objetos del repositorio de Git, están protegidos con un algoritmo de hash criptográficamente seguro llamado "SHA1". 
+De este modo, se salvaguarda el código y el historial de cambios frente a las modificaciones accidentales y maliciosas, 
+y se garantiza que el historial sea totalmente trazable.
+
+Flexibilidad 
+Git es flexible en varios aspectos: en la capacidad para varios tipos de flujos de trabajo de desarrollo no lineal, 
+en su eficiencia en proyectos tanto grandes como pequeños y en su compatibilidad con numerosos sistemas y protocolos.
+Git se ha ideado para posibilitar la ramificación y el etiquetado como procesos de primera importancia (a diferencia de SVN) y 
+las operaciones que afectan a las ramas y las etiquetas (como la fusión o la reversión) también se almacenan en el historial de cambios. 
+No todos los sistemas de control de versiones ofrecen este nivel de seguimiento.
+
+Ventajas de Git
+
+Versiones más rápidas
+Las ramas permiten el desarrollo flexible y simultáneo. 
+La rama principal contiene código estable y de alta calidad desde el que se publica. 
+Las ramas de características contienen trabajo en curso, que se combinan en la rama principal tras la finalización. 
+Al separar la rama de versión del desarrollo en curso, es más fácil administrar código estable y enviar actualizaciones más rápidamente.
+
+Integración integrada
+Debido a su popularidad, Git se integra en la mayoría de las herramientas y productos. 
+Cada IDE principal tiene compatibilidad integrada con Git y muchas herramientas admiten la integración continua, 
+la implementación continua, las pruebas automatizadas, el seguimiento de elementos de trabajo, 
+las métricas y la integración de características de informes con Git. Esta integración simplifica el flujo de trabajo diario.
+
+Soporte técnico sólido de la comunidad
+Git es de código abierto y se ha convertido en el estándar de facto para el control de versiones. 
+No hay escasez de herramientas y recursos disponibles para que los equipos aprovechen. 
+El volumen de compatibilidad de la comunidad con Git en comparación con otros sistemas de control de versiones facilita la ayuda cuando sea necesario.
+
+Git funciona con cualquier equipo
+El uso de Git con una herramienta de administración de código fuente aumenta la productividad de un equipo fomentando la colaboración, 
+aplicando directivas, automatizando procesos y mejorando la visibilidad y la rastreabilidad del trabajo. }
+El equipo puede establecerse en herramientas individuales para el control de versiones, 
+el seguimiento de elementos de trabajo y la integración e implementación continuas. O bien, 
+pueden elegir una solución como GitHub o Azure DevOps que admita todas estas tareas en un solo lugar.
+
+B.	Qué es github
+Es un portal creado para alojar el código de las aplicaciones de cualquier desarrollador, 
+y que fue comprada por Microsoft en junio del 2018. La plataforma está creada para que los desarrolladores suban el código de sus aplicaciones y herramientas,
+y que como usuario no sólo se pueda  descargar la aplicación, sino también entrar a su perfil para leer sobre ella o colaborar con su desarrollo.
+
+Qué ofrece Github
+Permite que los desarrolladores alojen proyectos creando repositorios de forma gratuita. 
+Github también ofrece una serie de herramientas propias con las que complementar las ventajas que ya tiene el sistema Git de por sí solo. 
+Por ejemplo, puedes crear una Wiki para cada proyecto, 
+de forma que puedas ofrecer toda la información sobre él y anotar todos los cambios de las diferentes versiones.
+
+Tiene un sistema de seguimiento de problemas, para que otras personas puedan hacer mejoras, 
+sugerencias y optimizaciones en los proyectos. Ofrece también una herramienta de revisión de código, 
+de forma que no sólo se pueda mirar el código fuente de una herramienta, sino que también se pueden dejar anotaciones
+para que su creador o tú mismo después si es tu proyecto las podáis revisar. Se pueden crear discusiones también alrededor 
+de estas anotaciones para mejorar y optimizar el código.
+
+Ventajas de GitHub
+Existe un gran número de razones que convierten a GitHub en una gran opción para el control y gestión de tus proyectos de código. Aquí algunas de ellas:
+
+•	GitHub permite que alojemos proyectos en repositorios de forma gratuita
+•	Te brinda la posibilidad de personalizar tu perfil en la plataforma
+•	Los repositorios son públicos por defecto. Sin embargo, GitHub te permite también alojar tus proyectos de forma privada
+•	Puedes crear y compartir páginas web estáticas con GitHub Pages
+•	Facilita compartir tus proyectos de una forma mucho más fácil y crear un portafolio
+•	Te permite colaborar para mejorar los proyectos de otros y a otros mejorar o aportar a los tuyos
+•	Ayuda reducir significativamente los errores humanos y escribir tu código más rápido con GitHub Copilot
+
+C.	Markdown y sus comandos
+
+Sintaxis de escritura y formato básicos
+
+Encabezados
+Para crear un encabezado, agrega entre uno y seis símbolos # antes del encabezado del texto. El número de # que use determinará el tamaño del encabezado.
+
+Estilos de texto
+Entrecomillado de texto
+Puede entrecomillar texto con >.
+
+Vínculos
+Puede crear un vínculo en línea escribiendo su texto entre corchetes [ ] y escribiendo la URL entre paréntesis ( ). 
+También puedes usar el método abreviado de teclado Comando+K para crear un vínculo. Cuando tienes texto seleccionado, 
+puedes pegar una dirección URL del Portapapeles para crear un vínculo automáticamente a partir de la selección.
+También puedes crear un hipervínculo de Markdown resaltando el texto y usando el método abreviado de teclado Comando+V. 
+Si quieres reemplazar el texto por el vínculo, usa el método abreviado de teclado Comando+Mayús+V.
+
+ 
+Imágenes
+Puede mostrar una imagen agregando! y ajustar el texto alternativo en [ ]. Escriba el vínculo de la imagen entre paréntesis ().
+
+Listas
+Puedes crear una lista sin ordenar. Para ello, coloca -, * o + antes de una o más líneas de texto.
+- George Washington
+* John Adams
++ Thomas Jefferson
+ 
+Bloques de código delimitados
+Puede crear bloques de código delimitados colocando comillas simples triples ``` antes y después del bloque de código. Te recomendamos dejar una línea en blanco antes y después de los bloques de código para facilitar la lectura del formato sin procesar.
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+ 
+Resaltado de sintaxis
+Puedes agregar un identificador opcional de idioma para habilitar el resaltado de la sintaxis en tu bloque de código cercado.
+Por ejemplo, para resaltar la sintaxis del código Ruby:
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+ 
+Bibliografía
+
+
+¿Qué es Git? - Azure DevOps. (2022, 22 septiembre). Microsoft Learn. Recuperado 5 de febrero de 2023, 
+de https://learn.microsoft.com/es-es/devops/develop/git/what-is-git
+
+Atlassian. (s. f.). Qué es Git | Atlassian Git Tutorial. 
+https://www.atlassian.com/es/git/tutorials/what-is-git
+
+Fernández, Y. (2019, 30 octubre). Qué es Github y qué es lo que le ofrece a los desarrolladores. Xataka. 
+https://www.xataka.com/basics/que-github-que-que-le-ofrece-a-desarrolladores
+
+Sintaxis de escritura y formato básicos - Documentación de GitHub. (s. f.). 
+GitHub Docs. https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
